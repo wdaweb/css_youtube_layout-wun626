@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="icon" href="./666.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic"
+        class="css-httpsfontsgoogleapiscomcssfamilyRoboto400300300italic400italic500500italic700700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700"
+        class="css-httpsfontsgoogleapiscomcssfamilyRobotoMono400700">
+    <title>Youtube</title>
+    <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <div id="header">
+
+        <div class="a">
+            <img src="images/menu.PNG" width="20px" height="16px" class="hi">&emsp;
+            <a href="https://www.youtube.com/"><img src="./images/logo.PNG" title="Youtube首頁" width="80px"
+                    height="18px"></a><span>TW</span>
+        </div>
+
+        <div class="searchbox">
+            <input type="text" placeholder="&ensp;搜尋">
+            <input type="button" class="button" title="搜尋">
+            <!-- <div class="search"> -->
+            <img src="./images/search.png" title="搜尋">
+            <!-- </div> -->
+            <div class="voice">
+                <img src="./images/voice.png" title="使用語音搜尋">
+            </div>
+        </div>
+
+        <div class="others">
+            <div class="apps"><img src="./images/show.png" title="Youtube應用程式"></div>
+            <div class="set"><img src="./images/set.png" title="設定"></div>
+            <div class="login"><a
+                    href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-TW%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=zh-TW&ec=65620"><img
+                        src="./images/login.PNG"></a></div>
+        </div>
+
+
+        <!-- 側邊攔 -->
+        <div class="sidebar">
+            <!-- 1 -->
+            <div class="scrollbar" id="style-1">
+                <!-- <div class="force-overflow"></div> -->
+
+                <div class="s1">
+                    <div class="ss1"><a href="https://www.youtube.com/" title="首頁">
+                            <div class="sss1">
+                                <img src="./images/home.png" width="20px" height="20" class="smallpic">
+                                <p class="sidebartext">首頁</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss1"><a href="https://www.youtube.com/feed/explore" title="探索">
+                            <div class="sss1">
+                                <img src="./images/explore.png" width="20px" height="20" class="smallpic">
+                                <p class="sidebartext">探索</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss1"><a href="https://www.youtube.com/feed/subscriptions" title="訂閱內容">
+                            <div class="sss1">
+                                <img src="./images/subscription.png" width="18px" height="18px" class="smallpic">
+                                <p class="sidebartext">訂閱內容</p>
+                            </div>
+                    </div></a>
+                </div>
+
+                <div class="sidebarhr"></div>
+
+                <!-- 2 -->
+                <div class="s2">
+                    <div class="ss2"><a href="https://www.youtube.com/feed/library" title="媒體庫">
+                            <div class="sss1">
+                                <img src="./images/library.png" width="24" height="24" class="smallpic">
+                                <p class="sidebartext">媒體庫</p>
+                            </div>
+                    </div></a>
+                    <div class="ss2"><a href="https://www.youtube.com/feed/history" title="觀看紀錄">
+                            <div class="sss1">
+                                <img src="./images/history.png" width="20px" height="20" class="smallpic">
+                                <p class="sidebartext">觀看紀錄</p>
+                            </div>
+                    </div></a>
+                    <div class="ss2"><a href="https://studio.youtube.com/channel/UCbSmmEwegmJXq0LdzLzcLtg/videos"
+                            title="你的影片">
+                            <div class="sss1">
+                                <img src="./images/9999.png" width="18px" height="18px" class="smallpic">
+                                <p class="sidebartext">你的影片</p>
+                            </div>
+                    </div></a>
+                    <div class="ss2"><a href="https://www.youtube.com/playlist?list=WL" title="稍後觀看">
+                            <div class="sss1">
+                                <img src="./images/clock.png" width="18px" height="18px" class="smallpic">
+                                <p class="sidebartext">稍後觀看</p>
+                            </div>
+                    </div></a>
+                    <div class="ss2"><a href="https://www.youtube.com/playlist?list=LL" title="喜歡的影片">
+                            <div class="sss1">
+                                <img src="./images/like.png" width="18px" height="18px" class="smallpic">
+                                <p class="sidebartext">喜歡的影片</p>
+                            </div>
+                    </div></a>
+                </div>
+                <div class="sidebarhr2"></div>
+
+
+                <!-- 3 -->
+                <div class="s2">
+                    <!-- <div class="ss2"> -->
+
+                    <div class="sidebartext2">訂閱內容</div>
+
+                    <!-- </div> -->
+                    <div class="ss2"><a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" title="音樂">
+                            <div class="sss1">
+                                <img src="./images/music.jpg" width="24px" height="24" class="smallpic circle">
+                                <p class="sidebartext">音樂</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw" title="體育">
+                            <div class="sss1">
+                                <img src="./images/champion.jpg" width="24px" height="24px" class="smallpic circle">
+                                <p class="sidebartext">體育</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/gaming" title="遊戲">
+                            <div class="sss1">
+                                <img src="./images/game.jpg" width="24px" height="24px" class="smallpic circle">
+                                <p class="sidebartext">遊戲</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw" title="新聞">
+                            <div class="sss1">
+                                <img src="./images/news.jpg" width="24px" height="24px" class="smallpic circle">
+                                <p class="sidebartext">新聞</p>
+                            </div>
+                            <div class="sidebarhr3"></div>
+                    </div></a>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="s2">
+                    <div class="sidebartext3">更多YOUTUBE功能</div>
+                    <div class="ss2"><a href="https://www.youtube.com/premium" title="YouTube Premium">
+                            <div>
+                                <div class="sss1">
+                                    <img src="./images/youtube.png" width="20px" height="18" class="smallpic">
+                                    <p class="sidebartext">YouTube Premium</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/gaming" title="遊戲">
+                            <div class="sss1">
+                                <img src="./images/gamegame.png" width="20px" height="20px" class="smallpic">
+                                <p class="sidebartext">遊戲</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig" title="直播">
+                            <div class="sss1">
+                                <img src="./images/radio.png" width="20px" height="20px" class="smallpic">
+                                <p class="sidebartext">直播</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw" title="體育">
+                            <div class="sss1">
+                                <img src="./images/trophy.png" width="18px" height="18px" class="smallpic">
+                                <p class="sidebartext">體育</p>
+                            </div>
+                            <div class="sidebarhr3"></div>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <!-- 5 -->
+                <div class="s2">
+                    <div class="ss2"><a href="https://www.youtube.com/account" title="設定">
+                            <div class="sss1">
+                                <img src="./images/setting.png" width="20px" height="20" class="smallpic">
+                                <p class="sidebartext">設定</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2"><a href="https://www.youtube.com/reporthistory" title="檢舉紀錄">
+                            <div class="sss1">
+                                <img src="./images/flag.png" width="20px" height="20px" class="smallpic">
+                                <p class="sidebartext">檢舉紀錄</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ss2">
+                        <div class="sss1">
+                            <img src="./images/5568.png" width="20px" height="20px" class="smallpic">
+                            <p class="sidebartext">說明</p>
+                        </div>
+                    </div>
+                    <div class="ss2">
+                        <div class="sss1">
+                            <img src="./images/question.PNG" width="18px" height="18px" class="smallpic">
+                            <p class="sidebartext">提供意見</p>
+                        </div>
+                        <div class="sidebarhr3"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="sss5"><a href="https://www.youtube.com/about/">簡介&ensp;</a>
+                    <a href="https://www.youtube.com/about/press/">媒體&ensp;</a>
+                    <a href="https://www.youtube.com/about/copyright/">版權&ensp;</a>
+                    <a href="https://www.youtube.com/t/contact_us/">與我們聯絡</a><br>
+                    <a href="https://www.youtube.com/creators/">創作者&ensp;</a>
+                    <a href="https://www.youtube.com/ads/">廣告&ensp;</a>
+                    <a href="https://developers.google.com/youtube">開發人員</a>
+
+                    <br>
+                    <br>
+
+                    <a href="https://www.youtube.com/t/terms">條款&ensp;</a>
+                    <a href="https://policies.google.com/privacy?hl=zh-TW">隱私權&ensp;</a>
+                    <a href="https://www.youtube.com/about/policies/">政策與安全性&ensp;</a>
+                    <a
+                        href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen">YouTube運作方式&ensp;</a>
+                    <a href="https://www.youtube.com/new">測試新功能</a>
+                    <br>
+                    <div class=" footer">&copy; 2021 Google LLC</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- 內容 -->
+    <div class="banner">
+        <img class="banner1"
+            src="https://www.gstatic.com/youtube/img/promos/growth/dc5b9cb12d4293961921b0966a5c5d1217dceeea689d8dd762b9f6de3d4b8ce5_2560x520.jpeg">
+        <div class="bannerimg"><img
+                src="https://www.gstatic.com/youtube/img/promos/growth/c117e153c0f61ba6e181349f4583a3ca73508d436feb398300ee138eae8c3286_640x48.png">
+        </div>
+        <div class="bannertext"><span>訂閱家庭方案，最多可讓 6 位家庭成
+                員享有零廣告的 YouTube Music，及背
+                景播放功能</span></div>
+        <a
+            href="https://www.youtube.com/musicpremium/family?ybp=IgoIBBIGZmFtaWx5KhRkaHAtYWNxLW0tQXVnMjBGUHNvZTocCAYYASoWChRkaHAtYWNxLW0tQXVnMjBGUHNvZToCCAhKFQgGEhF1bmxpbWl0ZWQtQi1tdXNpYw%253D%253D">
+            <div class="bannerbutton"><span>立即訂閱</span></div>
+        </a>
+        <div class="bye"><img src="./images/close.png"></div>
+    </div>
+
+    <div id="contents">
+        <!-- video第一行 -->
+        <div class="c1">
+            <!-- video1 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=g4mQmLZ-lEw"><img src="./images/1.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngG4oNJz6ExmjXFUibi8NugqxqA1n8A-i7-u-YH=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="珂拉琪Collage">
+                        <div class="videotitle">
+                            <p title="珂拉琪 Collage／蓮花空行身染愛">珂拉琪 Collage／蓮花空行身染愛</p>
+                            <div class="videocontents">
+                                <span title="珂拉琪Collage">珂拉琪Collage</span><br>
+                                觀看次數：93萬次．1個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video2 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=BuuIbTF0_b0"><img src="./images/2.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwng7D78OLcSvUNFMx8GEVOMRntAx0iSPTkjok7AH=s88-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="美秀集團 Bisiugroup">
+                        <div class="videotitle">
+                            <p title="美秀集團 Amazing Show－電火王">美秀集團 Amazing Show－電火王 </p>
+                            <div class="videocontents">
+                                <span title="美秀集團 Bisiugroup">美秀集團 Bisiugroup</span><br>
+                                觀看次數：200萬次．2年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video3 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=fcF8PwULwzk"><img src="./images/3.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniaJMYccUnTD1bdMNZXrZwu5OJfvG7ngVklgt5l=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="老破麻-Old Slut Distortion">
+                        <div class="videotitle">
+                            <p title="老破麻Old Slut Distortion - 自由媒體">老破麻Old Slut Distortion - 自由媒體</p>
+                            <div class="videocontents">
+                                <span title="老破麻-Old Slut Distortion">老破麻-Old Slut Distortion</span><br>
+                                觀看次數：3萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video4 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=EHtSLHK9p6Y"><img src="./images/4.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhfmLPkXoyff6BgBgVT-C243Altw4236HYGE7E5mg=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="FLESH JUICER TV">
+                        <div class="videotitle">
+                            <p title="Flesh Juicer 血肉果汁機 - 打開太陽">Flesh Juicer 血肉果汁機 - 打開太陽</p>
+                            <div class="videocontents">
+                                <span title="FLESH JUICER TV">FLESH JUICER TV</span><br>
+                                觀看次數：8萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+            </div></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video5 -->
+            <div>
+                <a href="https://youtu.be/-bi2_5SnIBw"><img src="./images/5.jpg" width="360" height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngyLfNRYHcOdyhiT97J-16R40j8i_Clcuk9kQqZtw=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="傷心欲絕Wayneʻs So Sad">
+                        <div class="videotitle">
+                            <p title="傷心欲絕 Wayne's So Sad - 台北流浪指南">傷心欲絕 Wayne's So Sad - 台北流浪指南</p>
+                            <div class="videocontents">
+                                <span title="傷心欲絕Wayneʻs So Sad">傷心欲絕Wayneʻs So Sad</span><br>
+                                觀看次數：120萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video6 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=qc3NXh42v5M"><img src="./images/6.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngjJgBoTZaG4OR4RITXs2LgGCOyVzHnzNJEIF3ZEA=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="無妄合作社No-nonsense Collective">
+                        <div class="videotitle">
+                            <p title="無妄合作社 - 二十一世紀的破青年">無妄合作社 - 二十一世紀的破青年</p>
+                            <div class="videocontents">
+                                <span title="無妄合作社No-nonsense Collective">無妄合作社No-nonsense Collective</span><br>
+                                觀看次數：9萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video7 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=rlRSJNHS40s"><img src="./images/7.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniQrP3fHuUR8bRTNKJ4P_hB7C5aHk-VU3XVQN4H=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="怕胖團PAPUN BAND Youtube 官方頻道">
+                        <div class="videotitle">
+                            <p title="怕胖團- 我沒有用，沒辦法給你想要的生活">怕胖團- 我沒有用，沒辦法給你想要的生活</p>
+                            <div class="videocontents">
+                                <span title="怕胖團PAPUN BAND Youtube 官方頻道">怕胖團PAPUN BAND Youtube 官方頻道</span><br>
+                                觀看次數：164萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video8 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=ZrpZB8-VBD0"><img src="./images/8.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhfmLPkXoyff6BgBgVT-C243Altw4236HYGE7E5mg=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="海豚刑警">
+                        <div class="videotitle">
+                            <p title="🧠 ่ :::イルカポリス 海豚刑警『安平之光』">🧠 ่ :::イルカポリス 海豚刑警『安平之光』</p>
+                            <div class="videocontents">
+                                <span title="海豚刑警">海豚刑警</span><br>
+                                觀看次數：90萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr class="middlehr">
+
+        <p class="text2">發燒影片</p>
+        <div class="c1">
+            <!-- video9 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=vt78cMAgCDI"><img src="./images/9.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnir-XuWwCR095Mw-59EuTR069OqNikf4nDACdW0lQ=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="CHTHONIC 閃靈映像館">
+                        <div class="videotitle">
+                            <p title="CHTHONIC閃靈 血肉果汁機 - 關閉太陽">CHTHONIC閃靈 血肉果汁機 - 關閉太陽 </p>
+                            <div class="videocontents">
+                                <span title="CHTHONIC 閃靈映像館">CHTHONIC 閃靈映像館</span><br>
+                                觀看次數：22萬次．4個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video10 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=fNjetBSY8HY"><img src="./images/10.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhZp40Iqhur2Bpq6orQv11OiPqn0WpaF3ZJ8HCz=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="Vast & Hazy">
+                        <div class="videotitle">
+                            <p title="他們說我是沒有用的年輕人">他們說我是沒有用的年輕人</p>
+                            <div class="videocontents">
+                                <span title="Vast & Hazy">Vast & Hazy</span><br>
+                                觀看次數：44萬次．5個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video11 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=fnZF8nLGlug"><img src="./images/11.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniC4RFhItZSp8LEmC4G4-6HjGWvv-9bu0O5Bg18=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="先知瑪莉Mary See the Future">
+                        <div class="videotitle">
+                            <p title="Mary See the Future｜Hellow">Mary See the Future｜Hellow</p>
+                            <div class="videocontents">
+                                <span title="先知瑪莉Mary See the Future">先知瑪莉Mary See the Future</span><br>
+                                觀看次數：40萬次．8年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video12 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=p_fEh6dBAG0"><img src="./images/12.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwng7D78OLcSvUNFMx8GEVOMRntAx0iSPTkjok7AH=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="美秀集團 Bisiugroup">
+                        <div class="videotitle">
+                            <p title="美秀集團 Amazing Show－細粒的目睭">美秀集團 Amazing Show－細粒的目睭</p>
+                            <div class="videocontents">
+                                <span title="美秀集團 Bisiugroup">美秀集團 Bisiugroup</span><br>
+                                觀看次數：189萬次．4年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr class="middlehr">
+        <br>
+        <br>
+        <br>
+        <!-- video13 -->
+        <div class="c1">
+            <div>
+                <a href="https://www.youtube.com/watch?v=M9m_peQvgO8"><img src="./images/13.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngPhtCxQPJOyUROERlZCcgy0KIEPzQwRPFsQzVKwg=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="滅火器 Fire EX.">
+                        <div class="videotitle">
+                            <p title="滅火器 Fire EX.－一九四五 1945">滅火器 Fire EX.－一九四五 1945</p>
+                            <div class="videocontents">
+                                <span title="滅火器 Fire EX.">滅火器 Fire EX.</span><br>
+                                觀看次數：295萬次．2年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video14 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=E0WZKnHfvFA"><img src="./images/14.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngc_nJcOJse6mF1qPXQx_uM1tA6-sa2BTI_rdev=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="告五人Accusefive">
+                        <div class="videotitle">
+                            <p title="果然你還是">果然你還是</p>
+                            <div class="videocontents">
+                                <span title="告五人Accusefive">告五人Accusefive</span><br>
+                                觀看次數：5萬次．4個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video15 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=AfPy0ye-JMs"><img src="./images/15.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnh_v7DPhMx7aWBXq3doyoDJq2GQDpyNtrTuYTLyOg=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="茄子蛋EggPlantEgg">
+                        <div class="videotitle">
+                            <p title="茄子蛋EggPlantEgg - Ms. Doremi">茄子蛋EggPlantEgg - Ms. Doremi</p>
+                            <div class="videocontents">
+                                <span title="茄子蛋EggPlantEgg">茄子蛋EggPlantEgg</span><br>
+                                觀看次數：11萬次．4年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video16 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=O3r_2ulkuKY"><img src="./images/16.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnjQi7kej5dOgAJv_Ij_lFmNAtJosVbeltNu_s3w=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="deca joins">
+                        <div class="videotitle">
+                            <p title="deca joins |巫賭【Official Music Video】">deca joins |巫賭【Official Music Video】 </p>
+                            <div class="videocontents">
+                                <span title="deca joins">deca joins</span><br>
+                                觀看次數：76萬次．3年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video17 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=EN4v_FLfs80"><img src="./images/17.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwni5kVAEXMrbGbVzKVGkf_RzYZyMY-y9mjfoSDVS=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="百合花liliumtaiwan">
+                        <div class="videotitle">
+                            <p title="百合花 - 怨妒">百合花 - 怨妒</p>
+                            <div class="videocontents">
+                                <span title="百合花liliumtaiwan">百合花liliumtaiwan</span><br>
+                                觀看次數：2萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video18 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=n7xF4UYrkq8"><img src="./images/18.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniMkR2T5qxauW9ZFUIE1YFRN3Ll8QmOxXriAyksMA=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="康士坦的變化球 KST">
+                        <div class="videotitle">
+                            <p title="美好的事可不可以發生在我身上">美好的事可不可以發生在我身上 </p>
+                            <div class="videocontents">
+                                <span title="康士坦的變化球 KST">康士坦的變化球 KST</span><br>
+                                觀看次數：50萬次．4個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video19 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=j1U1NLkx5XM"><img src="./images/19.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwng7D78OLcSvUNFMx8GEVOMRntAx0iSPTkjok7AH=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="美秀集團 Bisiugroup">
+                        <div class="videotitle">
+                            <p title="美秀集團 Amazing Show－殭屍王">美秀集團 Amazing Show－殭屍王 </p>
+                            <div class="videocontents">
+                                <span title="美秀集團 Bisiugroup">美秀集團 Bisiugroup</span><br>
+                                觀看次數：17萬次．4個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video20 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=-Wch2b-_mKg"><img src="./images/20.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnj64wCCNlyGWTrlSC6SEZtgIkLn-LF4xHAzImRIwA=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="謎路人">
+                        <div class="videotitle">
+                            <p title="謎路人Way of Puzzle - Scar">謎路人Way of Puzzle - Scar </p>
+                            <div class="videocontents">
+                                <span title="謎路人">謎路人</span><br>
+                                觀看次數：30萬次．5年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video21 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=tlZYyo7ziQk"><img src="./images/21.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhZp40Iqhur2Bpq6orQv11OiPqn0WpaF3ZJ8HCz=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="No Party For Cao Dong 草東沒有派對">
+                        <div class="videotitle">
+                            <p title="爛泥">爛泥</p>
+                            <div class="videocontents">
+                                <span title="No Party For Cao Dong 草東沒有派對">No Party For Cao Dong 草東沒有派對</span><br>
+                                觀看次數：17萬次．7個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video22 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=jgzvRgTJLrU"><img src="./images/22.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniGZd9cyPb-sW9vifcrQGiGcYZZbQi0XSlyoSLn=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="隨性 Random">
+                        <div class="videotitle">
+                            <p title="隨性 Random 《噴射時代》">隨性 Random 《噴射時代》 </p>
+                            <div class="videocontents">
+                                <span title="隨性 Random">隨性 Random</span><br>
+                                觀看次數：10萬次．3年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video23 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=awNgPEZDBeI"><img src="./images/23.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniC4RFhItZSp8LEmC4G4-6HjGWvv-9bu0O5Bg18=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="先知瑪莉Mary See the Future">
+                        <div class="videotitle">
+                            <p title="Mary See the Future｜禮拜天情人">Mary See the Future｜禮拜天情人</p>
+                            <div class="videocontents">
+                                <span title="先知瑪莉Mary See the Future">先知瑪莉Mary See the Future</span><br>
+                                觀看次數：15萬次．7年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video24 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=jN3iCNMjIpQ"><img src="./images/24.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwni8-JthCJINzCXmr1JAVRybMRvWwQuGg57tb9CbGg=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="JADE EYES孔雀眼">
+                        <div class="videotitle">
+                            <p title="孔雀眼 Jade Eyes - 山上的人">孔雀眼 Jade Eyes - 山上的人</p>
+                            <div class="videocontents">
+                                <span title="JADE EYES孔雀眼">JADE EYES孔雀眼</span><br>
+                                觀看次數：10萬次．5年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr class="middlehr">
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video25 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=kb0whVogBkI&list=RDMM&index=21"><img src="./images/25.jpg"
+                        width="360" height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhkcW8FxtkWJFLZqUsZtF-UfANSdt4rzgalWQde6A=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="Sunset Rollercoaster落日飛車">
+                        <div class="videotitle">
+                            <p title="Sunset Rollercoaster - Candlelight">Sunset Rollercoaster - Candlelight </p>
+                            <div class="videocontents">
+                                <span title="Sunset Rollercoaster落日飛車">Sunset Rollercoaster落日飛車</span><br>
+                                觀看次數：64萬次．6個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video26 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=NYkbHjMeUeY"><img src="./images/26.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnhZZS3KYPJrwdfZ3Bl8cqEk5d0BiGfz73V2_PcI=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="TOUMINGMAGAZINE">
+                        <div class="videotitle">
+                            <p title="透明雜誌 - 透明雜誌 FOREVER">透明雜誌 - 透明雜誌 FOREVER </p>
+                            <div class="videocontents">
+                                <span title="TOUMINGMAGAZINE">TOUMINGMAGAZINE</span><br>
+                                觀看次數：38萬次．8年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video27 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=jBH3BvRjEf4"><img src="./images/27.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnjbsvdHQwsuFppnTz7kvKQlCn3r39DY960-u-CRQw=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="椅子樂團 The Chairs">
+                        <div class="videotitle">
+                            <p title="椅子樂團 The Chairs - 一個人的街頭">椅子樂團 The Chairs - 一個人的街頭</p>
+                            <div class="videocontents">
+                                <span title="椅子樂團 The Chairs">椅子樂團 The Chairs</span><br>
+                                觀看次數：5601次．6個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video28 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=0427De0HQGo&list=PLLdH9_nvQQyLvu7rnc-eLNUWqS5yNI0C-&index=19"><img
+                        src="./images/28.jpg" width="360" height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnjmX_2oz5FmdwNliKzmN7DQ8vGTqPei2vfMVQgE=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="猛虎音樂社">
+                        <div class="videotitle">
+                            <p title="猛虎巧克力 2014demo - 不再是少年">猛虎巧克力 2014demo - 不再是少年</p>
+                            <div class="videocontents">
+                                <span title="猛虎音樂社">猛虎音樂社</span><br>
+                                觀看次數：20萬次．7年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video29 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=pS3vI3t9K8A"><img src="./images/29.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwng7D78OLcSvUNFMx8GEVOMRntAx0iSPTkjok7AH=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="美秀集團 Bisiugroup">
+                        <div class="videotitle">
+                            <p title="美秀集團 Amazing Show－懶趴火">美秀集團 Amazing Show－懶趴火</p>
+                            <div class="videocontents">
+                                <span title="美秀集團 Bisiugroup">美秀集團 Bisiugroup</span><br>
+                                觀看次數：48萬次．5年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video30 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=uwS__WiOYTI"><img src="./images/30.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnjOBocI9toep1fXdZqAPCAxwXCgQl5P83YDvQeLWw=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="Cody_Lee_李 official">
+                        <div class="videotitle">
+                            <p title="Cody・Lee(李) - 我愛你(MusicVideo)">Cody・Lee(李) - 我愛你(MusicVideo)</p>
+                            <div class="videocontents">
+                                <span title="Cody_Lee_李 official">Cody_Lee_李 official</span><br>
+                                觀看次數：235萬次．5個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video31 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=BwhPmJ3_JJs"><img src="./images/31.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngh8zPAiVXVaISjeZhY0OXmT7hXZugCESHBuy3n=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="莉莉周她說Lily Chou-Chou Lied">
+                        <div class="videotitle">
+                            <p title="莉莉周她說 Lily Chou-Chou Lied【猜拳】">莉莉周她說 Lily Chou-Chou Lied【猜拳】</p>
+                            <div class="videocontents">
+                                <span title="莉莉周她說Lily Chou-Chou Lied">莉莉周她說Lily Chou-Chou Lied</span><br>
+                                觀看次數：5萬次．2年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video32 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=WAZLsdwNyUI"><img src="./images/32.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnjlMXMfm2E4Lwa49Zip_khStTYe3AuYp4qunu6CeA=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="白頻率 White Frequency_Official">
+                        <div class="videotitle">
+                            <p title="白頻率  — 如果你能到我的雨裡面">白頻率 — 如果你能到我的雨裡面</p>
+                            <div class="videocontents">
+                                <span title="白頻率 White Frequency_Official">白頻率 White Frequency_Official</span><br>
+                                觀看次數：73萬次．2年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="c1">
+            <!-- video33 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=EVHH4eTcMj8"><img src="./images/33.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwngBP_8DAxIn0Ej8uQZB1LMJ2KJoBniAHPz7t42BDQ=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="CHTHONIC 閃靈映像館">
+                        <div class="videotitle">
+                            <p title="榕幫 - | 被窩 | Music Video">榕幫 - | 被窩 | Music Video</p>
+                            <div class="videocontents">
+                                <span title="Banyan Gang榕幫">Banyan Gang榕幫</span><br>
+                                觀看次數：9591次．11個月前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video34 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=PORWzNz9o90"><img src="./images/34.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwnj-Udn9Vkbht4lti-CMWzPw5R6hIpUpTfxKCWQi=s48-c-k-c0x00ffffff-no-rj-mo"
+                            width="50px" height="50px" class="user" title="Vast & Hazy">
+                        <div class="videotitle">
+                            <p title="Our Shame 凹與山 - 理查 Richard">Our Shame 凹與山 - 理查 Richard</p>
+                            <div class="videocontents">
+                                <span title="Our Shame">Our Shame</span><br>
+                                觀看次數：27萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video35 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=4bSeT_9gmJs"><img src="./images/35.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniGPGg-Um_48ci3HFE2VK9DyHOzPYUxizxQu64Bnw=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="老王樂隊">
+                        <div class="videotitle">
+                            <p title="老王樂隊｜安九 Enjoy">老王樂隊｜安九 Enjoy</p>
+                            <div class="videocontents">
+                                <span title="老王樂隊">老王樂隊</span><br>
+                                觀看次數：772萬次．1年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- video36 -->
+            <div>
+                <a href="https://www.youtube.com/watch?v=Roxj9OR6ufk"><img src="./images/36.jpg" width="360"
+                        height="200">
+                    <div class="videotext"><img
+                            src="https://yt3.ggpht.com/ytc/AAUvwniM8SRLIu4LRCIKWbd2A2xyLIA3iMlOvTZpV3UDHA=s48-c-k-c0x00ffffff-no-rj"
+                            width="50px" height="50px" class="user" title="拍謝少年">
+                        <div class="videotitle">
+                            <p title="拍謝少年 Sorry Youth - 暗流 Undercurrent (Official MV)">拍謝少年 Sorry Youth - 暗流
+                                Undercurrent</p>
+                            <div class="videocontents">
+                                <span title="拍謝少年">拍謝少年</span><br>
+                                觀看次數：134萬次．3年前
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <hr class="middlehr">
+
+
+
+    </div>
+
+
+</body>
+
+</html>
